@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FBA50DD17D0092300C6B256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4111833717CFFCC8002F58DE /* AppDelegate.m */; };
+		1FBA50DE17D0092300C6B256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4111834317CFFCC8002F58DE /* ViewController.m */; };
+		1FBA50DF17D0092F00C6B256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4111833317CFFCC8002F58DE /* main.m */; };
 		4111832817CFFCC8002F58DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4111832717CFFCC8002F58DE /* UIKit.framework */; };
 		4111832A17CFFCC8002F58DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4111832917CFFCC8002F58DE /* Foundation.framework */; };
 		4111832C17CFFCC8002F58DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4111832B17CFFCC8002F58DE /* CoreGraphics.framework */; };
@@ -280,6 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBA50DF17D0092F00C6B256 /* main.m in Sources */,
+				1FBA50DD17D0092300C6B256 /* AppDelegate.m in Sources */,
+				1FBA50DE17D0092300C6B256 /* ViewController.m in Sources */,
 				4111835917CFFCC9002F58DE /* jenkinsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +459,7 @@
 				4111835E17CFFCC9002F58DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4111835F17CFFCC9002F58DE /* Build configuration list for PBXNativeTarget "jenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				4111836117CFFCC9002F58DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
