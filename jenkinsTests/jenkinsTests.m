@@ -20,7 +20,7 @@
 - (void)tearDown
 {
     // Tear-down code here.
-    
+    [NSThread sleepForTimeInterval:1.0];
     [super tearDown];
 }
 
